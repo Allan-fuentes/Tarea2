@@ -116,7 +116,7 @@ const App = () => {
                 locale='es-ES' // Establece el idioma del datetimepicker a español
               />
             )}
-            {/* Botón para agregar el cliente */}
+            {/* Botón para agregar el clientes */}
             <Button title="Agregar Alumno" onPress={agregarAlumno} />
             {/* Botón para cancelar y cerrar el modal */}
             <Button
@@ -127,7 +127,7 @@ const App = () => {
           </View>
         </View>
       </Modal>
-      {/* Lista de clientes */}
+      {/* Lista de cliente */}
       <FlatList
         data={alumno}
         renderItem={({ item }) => (
